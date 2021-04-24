@@ -1,0 +1,5 @@
+catetoOposto = float(input("Digite o valor do cateto oposto: "))
+catetoAdjacente = float(input("Digite o valor do cateto adjacente: "))
+catetos = (catetoOposto ** 2) + (catetoAdjacente ** 2)
+hipotenusa = catetos ** (1/2)
+print(f'A soma do quadrado do catetos é {catetos} e sua hipotenusa {hipotenusa:.2f}')

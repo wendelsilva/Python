@@ -1,0 +1,10 @@
+informacao = input("digite algo: ")
+print(f'O tipo primitivo de {informacao} é {type(informacao)}')
+
+print('loading...')
+print(f'{informacao} é númerico: {informacao.isnumeric()}')
+print(f'{informacao} é alfanumérico: {informacao.isalpha()}')
+print(f'{informacao} é espaço em branco: {informacao.isspace()}')
+print(f'{informacao} é um decimal: {informacao.isdecimal()}')
+print(f'{informacao} está em maiusculo: {informacao.isupper()}')
+print(f'{informacao} está em minusculo: {informacao.islower()}')
